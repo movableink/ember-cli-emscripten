@@ -1,33 +1,38 @@
 {
   "name": "ember-cli-emscripten",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Compile emscripten c/c++ files and create ES6 modules",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
   "scripts": {
-    "start": "ember server",
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/movableink/ember-cli-emscripten.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Michael Nutt <michael@nutt.im>",
   "license": "MIT",
-  "devDependencies": {
-    "broccoli-asset-rev": "^2.0.0",
+  "dependencies": {
     "broccoli-filter": "0.1.11",
     "ember-cli": "0.2.0-beta.1",
-    "ember-cli-dependency-checker": "0.0.7",
     "rsvp": "3.0.17",
     "shelljs": "0.3.0"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "emscripten",
+    "c++"
   ],
+  "bugs": {
+    "url": "https://github.com/movableink/ember-cli-emscripten/issues"
+  },
   "ember-addon": {
     "configPath": "tests/dummy/config"
   }

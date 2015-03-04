@@ -8,7 +8,7 @@ ember-cli-emscripten allows you to add emscripten-flavored c or c++ code to your
 
 ## Usage
 
-This addon uses emscripten's (embind)[http://kripken.github.io/emscripten-site/docs/porting/connecting_cpp_and_javascript/ embind.html] to expose c/c++ functions to javascript.  From the emscripten example, saved as `app/compiled/math.cpp` in your ember-cli app:
+This addon uses emscripten's [embind](http://kripken.github.io/emscripten-site/docs/porting/connecting_cpp_and_javascript/embind.html) to expose c/c++ functions to javascript.  From the emscripten example, saved as `app/compiled/math.cpp` in your ember-cli app:
 
 ```
 #include <emscripten/bind.h>
